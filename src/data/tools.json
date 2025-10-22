@@ -1,0 +1,160 @@
+{
+  "categories": [
+    {
+      "id": "text-tools",
+      "name": "Text Tools",
+      "description": "Manipulate and transform text with ease",
+      "icon": "FileText",
+      "color": "bg-blue-100 dark:bg-blue-900/20"
+    },
+    {
+      "id": "color-tools",
+      "name": "Color Tools",
+      "description": "Convert and generate color codes",
+      "icon": "Palette",
+      "color": "bg-purple-100 dark:bg-purple-900/20"
+    },
+    {
+      "id": "file-tools",
+      "name": "File Tools",
+      "description": "Convert and manipulate files",
+      "icon": "File",
+      "color": "bg-green-100 dark:bg-green-900/20"
+    },
+    {
+      "id": "developer-tools",
+      "name": "Developer Tools",
+      "description": "Essential tools for developers",
+      "icon": "Code",
+      "color": "bg-orange-100 dark:bg-orange-900/20"
+    },
+    {
+      "id": "seo-tools",
+      "name": "SEO Tools",
+      "description": "Optimize your content for search engines",
+      "icon": "Search",
+      "color": "bg-pink-100 dark:bg-pink-900/20"
+    },
+    {
+      "id": "image-tools",
+      "name": "Image Tools",
+      "description": "Edit and optimize images",
+      "icon": "Image",
+      "color": "bg-yellow-100 dark:bg-yellow-900/20"
+    }
+  ],
+  "tools": [
+    {
+      "id": "case-converter",
+      "name": "Case Converter",
+      "description": "Convert text between different cases (uppercase, lowercase, title case, etc.)",
+      "category": "text-tools",
+      "tags": ["text", "convert", "case"],
+      "popular": true
+    },
+    {
+      "id": "word-counter",
+      "name": "Word Counter",
+      "description": "Count words, characters, sentences, and paragraphs in your text",
+      "category": "text-tools",
+      "tags": ["text", "count", "words"],
+      "popular": true
+    },
+    {
+      "id": "lorem-ipsum",
+      "name": "Lorem Ipsum Generator",
+      "description": "Generate placeholder text for your designs and mockups",
+      "category": "text-tools",
+      "tags": ["text", "generate", "placeholder"],
+      "popular": false
+    },
+    {
+      "id": "hex-to-rgb",
+      "name": "HEX to RGB Converter",
+      "description": "Convert color codes between HEX and RGB formats",
+      "category": "color-tools",
+      "tags": ["color", "convert", "hex", "rgb"],
+      "popular": true
+    },
+    {
+      "id": "color-picker",
+      "name": "Color Picker",
+      "description": "Pick and save colors from anywhere on your screen",
+      "category": "color-tools",
+      "tags": ["color", "picker", "eyedropper"],
+      "popular": true
+    },
+    {
+      "id": "gradient-generator",
+      "name": "CSS Gradient Generator",
+      "description": "Create beautiful CSS gradients with a visual editor",
+      "category": "color-tools",
+      "tags": ["color", "gradient", "css"],
+      "popular": false
+    },
+    {
+      "id": "image-compressor",
+      "name": "Image Compressor",
+      "description": "Reduce image file size without losing quality",
+      "category": "image-tools",
+      "tags": ["image", "compress", "optimize"],
+      "popular": true
+    },
+    {
+      "id": "image-resizer",
+      "name": "Image Resizer",
+      "description": "Resize images to specific dimensions or percentages",
+      "category": "image-tools",
+      "tags": ["image", "resize", "dimensions"],
+      "popular": false
+    },
+    {
+      "id": "pdf-merger",
+      "name": "PDF Merger",
+      "description": "Combine multiple PDF files into a single document",
+      "category": "file-tools",
+      "tags": ["pdf", "merge", "combine"],
+      "popular": true
+    },
+    {
+      "id": "json-formatter",
+      "name": "JSON Formatter",
+      "description": "Format and validate JSON data with syntax highlighting",
+      "category": "developer-tools",
+      "tags": ["json", "format", "validate"],
+      "popular": true
+    },
+    {
+      "id": "base64-encoder",
+      "name": "Base64 Encoder/Decoder",
+      "description": "Encode and decode data in Base64 format",
+      "category": "developer-tools",
+      "tags": ["base64", "encode", "decode"],
+      "popular": false
+    },
+    {
+      "id": "regex-tester",
+      "name": "Regex Tester",
+      "description": "Test and debug regular expressions with live matching",
+      "category": "developer-tools",
+      "tags": ["regex", "test", "pattern"],
+      "popular": true
+    },
+    {
+      "id": "meta-tag-generator",
+      "name": "Meta Tag Generator",
+      "description": "Generate SEO-friendly meta tags for your website",
+      "category": "seo-tools",
+      "tags": ["seo", "meta", "tags"],
+      "popular": true
+    },
+    {
+      "id": "keyword-density",
+      "name": "Keyword Density Checker",
+      "description": "Analyze keyword density in your content",
+      "category": "seo-tools",
+      "tags": ["seo", "keywords", "density"],
+      "popular": false
+    }
+  ]
+}
